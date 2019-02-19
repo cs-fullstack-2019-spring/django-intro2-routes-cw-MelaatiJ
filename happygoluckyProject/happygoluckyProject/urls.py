@@ -19,7 +19,8 @@ from django.urls import path, include
 
 #if the url is type it will runn happygoluckyapp
 urlpatterns = [
-    path('happy/', include("happygoluckyApp.urls")),
+
+    path('', include("happygoluckyApp.urls")),
     path('admin/', admin.site.urls),
 ]
 
